@@ -278,13 +278,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC2 - Delete a contact")])]
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to delete a specific person in the database and input the details")])]),_v(" "),_c('li',[_c('p',[_v("Hi:Re deletes the person")])]),_v(" "),_c('li',[_c('p',[_v("Hi:Re shows a message for the successful deletion")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to delete a specific person in the database and input the details")])]),_v(" "),_c('li',[_c('p',[_v("Hi:Re prompts the user with a dialog box to confirm deletion")])]),_v(" "),_c('li',[_c('p',[_v("User confirms the deletion")])]),_v(" "),_c('li',[_c('p',[_v("Hi:Re deletes the person")])]),_v(" "),_c('li',[_c('p',[_v("Hi:Re shows a message for the successful deletion")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The given details is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1a1. Hi:Re shows an error message")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The given details are invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1a1. Hi:Re shows an error message")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_c('p',[_v("2a. The user chooses to cancel the deletion.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. Hi:Re shows a message that the deletion is cancelled")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC3 - Toggle display")])])}
@@ -335,6 +335,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Fri, 29 Mar 2024, 9:54:00 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Fri, 29 Mar 2024, 9:56:47 GMT+8]")])])])}
 }];
   
