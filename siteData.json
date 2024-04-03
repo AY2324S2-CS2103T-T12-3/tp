@@ -105,6 +105,8 @@
       "headings": {
         "adding-a-contact": "Adding a contact: +",
         "deleting-a-contact": "Deleting a contact: -",
+        "undo": "Undo",
+        "redo": "Redo",
         "toggle-display": "Toggle display: $",
         "sort": "Sort",
         "delete-sample-data": "Delete sample data",
