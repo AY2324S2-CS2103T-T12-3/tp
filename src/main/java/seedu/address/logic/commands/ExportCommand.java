@@ -23,9 +23,9 @@ public class ExportCommand extends Command {
 
 	public static final String MESSAGE_USAGE = COMMAND_WORD + ": Exports the address book to a JSON file, created in the same directory as the program. "
 			+ "\".json\" prefix is added automatically and does not need to be typed. " 
-			+ "Parameters: "
+			+ "\nParameters: "
 			+ PREFIX_PATH + "FILEPATH "
-			+ "Example: " + COMMAND_WORD + " "
+			+ "\nExample: " + COMMAND_WORD + " "
 			+ PREFIX_PATH + "contacts ";
 
 	public static final String MESSAGE_SUCCESS = "New addressbook exported to %1$s";
