@@ -21,11 +21,11 @@ public class AddCommand extends Command {
     public static final String COMMAND_WORD = "+";
 
     public static final String MESSAGE_USAGE = COMMAND_WORD + ": Adds a person to the address book. "
-            + "\nParameters: "
+            + "Parameters: "
             + PREFIX_NAME + "NAME "
             + PREFIX_ID + "ID "
             + PREFIX_PHONE + "PHONE "
-            + "\nExample: " + COMMAND_WORD + " "
+            + "Example: " + COMMAND_WORD + " "
             + PREFIX_NAME + "John Doe "
             + PREFIX_ID + "johndoe41 "
             + PREFIX_PHONE + "98765432 ";

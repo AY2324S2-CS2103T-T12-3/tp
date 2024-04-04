@@ -2,8 +2,6 @@ package seedu.address.logic.parser;
 
 import static java.util.Objects.requireNonNull;
 
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -11,9 +9,7 @@ import java.util.Set;
 import seedu.address.account.account.Password;
 import seedu.address.account.account.Username;
 import seedu.address.commons.core.index.Index;
-import seedu.address.commons.util.FileUtil;
 import seedu.address.commons.util.StringUtil;
-import seedu.address.logic.Messages;
 import seedu.address.logic.parser.exceptions.ParseException;
 import seedu.address.model.person.Address;
 import seedu.address.model.person.Email;
@@ -174,20 +170,4 @@ public class ParserUtil {
         }
         return trimmedPassword;
     }
-
-    /**
-     * Parses a {@code String filepath} into a {@code Path}.
-     * Leading and trailing whitespaces will be trimmed.
-     *
-     * @throws ParseException if the given {@code id} is invalid.
-     */
-    public static Path parsePath(String path) throws ParseException {
-        requireNonNull(path);
-        String trimmedPath = path.trim();
-        if (!FileUtil.isValidPath(trimmedPath)) {
-            throw new ParseException(Messages.MESSAGE_INVALID_PATH);
-        }
-        return Paths.get(path);
-    }
-
 }
