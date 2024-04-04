@@ -542,6 +542,50 @@ If the user Logouts successfully, a graphical user interface (GUI) indicative of
        <img src="images/ui/logout/notloggederror.png" width="452.5" ><br><br>
        </box>
        </panel>
+
+<panel header="### Export" peek>
+
+  Exports the address book to a CSV file.<br>
+
+  Format: <code>@ /filename (filename)</code><br>
+
+  Example: <code>@ /filename contacts</code><br>
+
+  <box type="important" seamless>
+
+  * Note that you need not add the <code>.csv</code> file extension to the filename argument when executing this command.
+  
+  * The filename should follow standard filename conventions on whatever system you are using.
+
+  * If a CSV file already exists with the given filename, the command will **not** execute and an error will be thrown.
+
+  </box>
+
+(The Initial UI before exporting)                       
+<img src="images/ui/export/beforeExport.png" width="500" height="250"><br>
+
+ * **Confirmation of Successful Export**<br>
+
+   Following the accurate input of the command, a graphical user interface (GUI) indicative of a successful export will be displayed, as illustrated below.<br>
+
+  <box type="success">
+    GUI upon successful export command <br><br>
+    <img src="images/ui/export/afterExport.png" width="452.5" height="369.5"><br>
+  </box> 
+
+* **Error Handling Protocols**<br>
+  1. Invalid Filename Error: If the given filename is invalid given for the current system, an error will be triggered.<br>
+      <box type="wrong">
+      Invalid filename error <br><br>
+      <img src="images/ui/export/invalidName.png" width="452.5" height="369.5"><br><br>
+      </box>
+
+  1. Filename Already Taken Error: If there already exists a CSV file with the given filename in the same directory as the program, an error will be triggered.<br>
+      <box type="wrong">
+      Filename already taken error <br><br>
+      <img src="images/ui/export/alreadyExists.png" width="452.5" height="369.5"><br><br>
+      </box>
+</panel>
 <!--
 
 ### Listing all persons : `list`
