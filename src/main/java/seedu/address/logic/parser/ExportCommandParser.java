@@ -24,7 +24,7 @@ public class ExportCommandParser implements Parser<ExportCommand> {
 		if (!arePrefixesPresent (argMultimap, PREFIX_PATH) || !argMultimap.getPreamble().isEmpty()) {
 			throw new ParseException(String.format(MESSAGE_INVALID_COMMAND_FORMAT, ExportCommand.MESSAGE_USAGE));
 		}
-		Path path = ParserUtil.parsePath(argMultimap.getValue(PREFIX_PATH).get() + ".json");
+		Path path = ParserUtil.parsePath(argMultimap.getValue(PREFIX_PATH).get() + ".csv");
 		return new ExportCommand(path);
 	}	
 
