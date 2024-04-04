@@ -74,7 +74,7 @@ public class JsonCSVAddressBookStorage implements AddressBookStorage {
         requireNonNull(filePath);
 
         FileUtil.createIfMissing(filePath);
-        JsonUtil.saveJsonToCsv(addressBook, filePath);
+        JsonUtil.saveJsonToCsv(new JsonSerializableAddressBook(addressBook), filePath);
     }
 
 }

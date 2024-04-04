@@ -105,7 +105,8 @@ public class JsonUtil {
         requireNonNull(filePath);
         requireNonNull(jsonFile);
 
-        JSONObject jsonObject = new JSONObject(toJsonString(jsonFile));
+        String jsonString = toJsonString(jsonFile);
+        JSONObject jsonObject = new JSONObject(jsonString);
         JSONArray docs = jsonObject.getJSONArray("persons");
         String csvString = CDL.toString(docs);
         FileUtil.writeToFile(filePath, csvString);

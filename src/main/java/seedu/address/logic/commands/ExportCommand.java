@@ -12,7 +12,7 @@ import seedu.address.logic.LogicManager;
 import seedu.address.logic.commands.exceptions.CommandException;
 import seedu.address.model.Model;
 import seedu.address.storage.AddressBookStorage;
-import seedu.address.storage.JsonAddressBookStorage;
+import seedu.address.storage.JsonCSVAddressBookStorage;
 
 /**
  * Exports the address book as a JSON file
@@ -49,7 +49,7 @@ public class ExportCommand extends Command {
 			throw new CommandException(String.format(MESSAGE_DUPLICATE_FILE, exportTo.toString()));
 		}
 		try {
-			AddressBookStorage exportAddressBookStorage = new JsonAddressBookStorage(exportTo);
+			AddressBookStorage exportAddressBookStorage = new JsonCSVAddressBookStorage(exportTo);
 			exportAddressBookStorage.saveAddressBook(model.getAddressBook());
 		} catch (AccessDeniedException e) {
             throw new CommandException(String.format(LogicManager.FILE_OPS_PERMISSION_ERROR_FORMAT, e.getMessage()), e);
