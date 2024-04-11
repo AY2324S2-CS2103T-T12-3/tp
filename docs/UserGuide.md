@@ -18,6 +18,7 @@
   2) [Adding a Contact](#adding-a-contact)
   2) [Deleting a Contact](#deleting-a-contact)
   3) [Editing a Contact](#editing-a-contact)
+  4) [Clearing All Contacts](#clearing-all-contacts-clear)
   4) [Toggling the display](#toggling-the-display)
   5) [Finding Contacts by Name](#finding-contacts-by-name)
   5) [Listing all matching information](#listing-all-matching-information-ls)
@@ -458,11 +459,17 @@ GUI upon successful addition command <br><br>
        <img src="images/ui/edit/editidNotFound.png" width="452.5"><br><br>
        </box>
 
+### Clearing all contacts:  `clear`
+[back to top](#table-of-contents)
+
+Clears all contacts from the current address book.<br>
+
+Format: `clear`<br><br>
 
 ### Toggling the display: `$`
 [back to top](#table-of-contents)
 
-Toggles the display to view / hide the contacts panel of Hi:Re.<br><br>
+Toggles the display to view / hide the contacts panel of Hi:Re.<br>
 
   Format: <code>$</code><br>
 
