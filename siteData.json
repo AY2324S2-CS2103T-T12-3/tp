@@ -115,6 +115,7 @@
         "adding-a-contact": "Adding a contact: +",
         "deleting-a-contact": "Deleting a contact: -",
         "editing-a-contact": "Editing a contact: &gt;",
+        "clearing-all-contacts-clear": "Clearing all contacts:  clear",
         "toggling-the-display": "Toggling the display: $",
         "finding-contacts-by-name": "Finding Contacts by Name: ?",
         "listing-all-matching-information-ls": "Listing all matching information: ls",
