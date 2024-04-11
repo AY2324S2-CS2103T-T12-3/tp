@@ -236,7 +236,7 @@ with(this){return _c('h3',{attrs:{"id":"toggling-the-display"}},[_v("Toggling th
 with(this){return _c('p',[_c('a',{attrs:{"href":"#table-of-contents"}},[_v("back to top")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Toggles the display to view / hide the contacts panel of Hi:Re."),_c('br'),_c('br')])}
+with(this){return _c('p',[_v("Toggles the display to view / hide the contacts panel of Hi:Re. This allows users to maintain a cleaner and less-cluttered application workspace, especially if there are many contacts."),_c('br'),_c('br')])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true},[_v("$")]),_c('br')])}
@@ -446,6 +446,6 @@ with(this){return _c('p',[_c('a',{attrs:{"href":"#table-of-contents"}},[_v("back
 with(this){return _c('p',[_v("Should you have any enquiries or feedback, do reach out to us at our "),_c('a',{attrs:{"href":"https://github.com/AY2324S2-CS2103T-T12-3"}},[_v("website!")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Thu, 11 Apr 2024, 23:28:40 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Fri, 12 Apr 2024, 0:19:40 GMT+8]")])])])}
 }];
   
