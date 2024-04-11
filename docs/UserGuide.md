@@ -338,60 +338,28 @@ If the user Logouts successfully, a graphical user interface (GUI) indicative of
 ### Deleting a contact: `-`
 [back to top](#table-of-contents)
 
-  Deletes a person with his specified ID.<br><br>
+  Deletes a person with his specified ID.<br>
 
   Format: <code>- /id (id)</code><br>
 
   Example: <code>- /id johndoe46</code><br>
 
-  <box type="important" seamless>
+<div markdown="block" class="alert alert-info">
+
+**:pencil: Parameter Information**<br>
 
 * The ID can include alphabets, numbers, and special characters, but cannot be blank and should not contain whitespaces.
 
-  </box>
-  (The Initial UI before deletion)
-  
-  <img src="images/ui/delete/beforeDelete.png" width="452.5"><br>
-
-  * **Confirmation of Contact Deletion**<br>
-  
-  Following the accurate input of the command, if the person with the input id does exist in the address book, a window will pop up asking for your confirmation to delete.
-  Click OK to continue with the deletion. After confirmation, a graphical user interface (GUI) indicative of a successful contact deletion will be displayed, as illustrated below.
-  <box type="success">
-  
-  * Pop-up window for confirmation
-  
-    <img src="images/ui/delete/prompt.png" width="452.5"><br><br>
-
-  * GUI upon successful addition command <br><br>
-  <img src="images/ui/delete/afterDelete.png" width="452.5" height="369.5"><br><br>
-  </box>
+</div>
 
   * **Error Handling Protocols**<br>
   
     1. ID Not Found Error: If there is no such person with the input id in the list, an error will be triggered.
-       <box type="wrong">
-       ID not found error <br><br>
-       <img src="images/ui/delete/idnotfound.png" width="452.5"><br><br>
-       </box>
     
-    2. Command Cancelled Error: When the confirmation dialog box pops up, if the user chooses to cancel the operation, it can trigger an error.
-       <box type="wrong">
-       Command cancelled error <br><br>
-       <img src="images/ui/delete/deletecancelled.png" width="452.5"><br><br>
-       </box>
-    
-    3. Incomplete Field Error: Failure to input the required id with the correct prefix will trigger an error.
-       <box type="wrong">
-       Incomplete field error <br><br>
-       <img src="images/ui/delete/insufficientfield.png" width="452.5"><br><br>
-       </box>
+    2. Incomplete Field Error: Failure to input the required id with the correct prefix will trigger an error.
 
-    4. Invalid Field Error: If the input id violates the requirements, it is invalid and should trigger an error.
-        <box type="wrong">
-        Invalid field error <br><br>
-        <img src="images/ui/delete/invalidid.png" width="452.5"><br><br>
-        </box>
+    3. Invalid Field Error: If the input id violates the requirements, it is invalid and should trigger an error.
+    
 
 ### Editing a contact: `>`
 [back to top](#table-of-contents)
