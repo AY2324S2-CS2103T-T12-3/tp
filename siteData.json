@@ -64,6 +64,8 @@
         "clearing-the-addressbook": "Clearing the addressbook",
         "adding-tags": "Adding tags",
         "deleting-tags": "Deleting tags",
+        "finding-contacts": "Finding contacts",
+        "listing-contacts": "Listing contacts",
         "register-an-account": "Register an account",
         "login-an-account": "Login an account",
         "logout-an-account": "Logout an account",
@@ -74,7 +76,10 @@
         "challenges-faced": "Challenges Faced",
         "effort-required": "Effort Required",
         "achievements-of-project": "Achievements of Project",
-        "code-reuse": "Code Reuse"
+        "code-reuse": "Code Reuse",
+        "appendix-planned-enhancements": "Appendix: Planned Enhancements",
+        "number-of-planned-enhancements": "Number of Planned Enhancements",
+        "list-of-planned-enhancements": "List of Planned Enhancements"
       },
       "headingKeywords": {}
     },
