@@ -47,7 +47,7 @@
         "common-classes": "Common classes",
         "implementation": "Implementation",
         "implemented-edit-feature": "[Implemented] Edit feature",
-        "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
+        "implemented-undo-redo-feature": "[Implemented] Undo/redo feature",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
