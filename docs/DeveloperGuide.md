@@ -1063,12 +1063,6 @@ If a user enters the command `ls SALES`, all contacts with all the tags listed a
 inherently pose an issue, it means there might be unnecessarily added tags in the contact database. We plan to change this
 in the future iterations of **Hi:Re**.
 
-One of our users brought up the issue of the **Delete** command being case-insensitive. For example, a contact with ID `alex123`
-could be deleted by using the command `- /id AlEx123`. For commands that make amendments to the contact list, it would be
-a better choice to make them case-sensitive, whilst the other commands used for displaying results (like the **Find** and **List**
-commands) can have their case-insensitivity maintained. This will make it more difficult for users to accidentally perform
-an unwanted deletion, which is a **serious** flaw.
-
 #### 2. Allowing for Multiple Phone Numbers
 
 Some personnel may have **multiple phone numbers** under their contact details, such as **Home** and **Mobile** phone numbers. As such,
